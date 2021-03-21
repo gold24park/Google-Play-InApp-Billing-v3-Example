@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_sku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="설명"
+        android:textColor="@color/teal_200"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_subscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="이용권 상태: "
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Basic 1개월 이용권 구매"/>
+
+    <Button
+        android:id="@+id/btn_vip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Vip 1개월 이용권 구매"/>
+</LinearLayout>
